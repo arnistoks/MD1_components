@@ -4,31 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Components</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button class="button">Button</button>
-    <button class="button button--secondary">Button</button>
-    <br><br>
-    <div class="toast">
-        <span class="toast__text">This is a default toast</span>
-        <span class="toast__close">
-            <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5.99999 4.586L10.243 0.343002C10.6335 -0.0474629 11.2665 -0.0474638 11.657 0.343002C12.0475 0.733467 12.0475 1.36654 11.657 1.757L7.41399 6L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.414L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 6L0.342987 1.757C-0.0474782 1.36654 -0.0474791 0.733467 0.342986 0.343002C0.733452 -0.0474638 1.36652 -0.0474637 1.75699 0.343002L5.99999 4.586Z"/>
-            </svg>
-        </span>
+    <div class="header">
+        <div class="title">
+            Buttons
+        </div>
+    </div>
+    <div class="container">
+       
+        <button class="button-a button-a--1">Button</button>
+        <button class="button-a button-a--1-disabled">Button</button>
+        <button class="button-a button-a--2">Button</button>
+        <button class="button-a button-a--2-disabled">Button</button>
+        <br><br>
+        <button class="button-b button-b--1">Primary Button</button>
+        <button class="button-b button-b--1-disabled">Primary Button</button>
+        <button class="button-b button-b--2">Secondary Button</button>
+        <button class="button-b button-b--2-disabled">Secondary Button</button>
+        <br><br>
+        <button class="button-b button-b--3">Primary Button</button>
+        <button class="button-b button-b--3-disabled">Primary Button</button>
+        <button class="button-b button-b--4">Secondary Button</button>
+        <button class="button-b button-b--4-disabled">Secondary Button</button>
+        <br><br>
+        <button class="button-c">Button 1</button>
+        <button class="button-c button-c--disabled">Button 1</button>
+        <button class="button-d">Subscription</button>
+        <button class="button-d button-d--disabled">Subscription</button>
+        <br><br>
+        <button class="button-e">Normal</button>
+        <button class="button-e button-e--disabled">Normal</button>
+        <button class="button-f">+</button>
+        <button class="button-f button-f--disabled">+</button>
+        <br><br>
+        <button class="button-e">Button</button>
+        <button class="button-e button-e--disabled">Button</button>
+        <button class="button-f">Primary Button</button>
+        <button class="button-f button-f--disabled">Primary Button</button>
     </div>
     <br><br>
-    <div class="toast2">
-        <span class="toast2__text">This is a default toast</span>
-        <span class="toast2__close">
-            <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5.99999 4.586L10.243 0.343002C10.6335 -0.0474629 11.2665 -0.0474638 11.657 0.343002C12.0475 0.733467 12.0475 1.36654 11.657 1.757L7.41399 6L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.414L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 6L0.342987 1.757C-0.0474782 1.36654 -0.0474791 0.733467 0.342986 0.343002C0.733452 -0.0474638 1.36652 -0.0474637 1.75699 0.343002L5.99999 4.586Z"/>
-            </svg>
-        </span>
+    <div class="container container--dark">
+        Tumšās pogas
     </div>
-    <div>Button</div>
-    <div>Button</div>
+    <br><br>
+    <div class="container">
+        <br><br>
+        <div class="toast">
+            <span class="toast__text">This is a default toast</span>
+            <span class="toast__close">
+                <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.99999 4.586L10.243 0.343002C10.6335 -0.0474629 11.2665 -0.0474638 11.657 0.343002C12.0475 0.733467 12.0475 1.36654 11.657 1.757L7.41399 6L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.414L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 6L0.342987 1.757C-0.0474782 1.36654 -0.0474791 0.733467 0.342986 0.343002C0.733452 -0.0474638 1.36652 -0.0474637 1.75699 0.343002L5.99999 4.586Z"/>
+                </svg>
+            </span>
+        </div>
+        <br><br>
+        <div class="toast2">
+            <span class="toast2__text">This is a default toast</span>
+            <span class="toast2__close">
+                <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.99999 4.586L10.243 0.343002C10.6335 -0.0474629 11.2665 -0.0474638 11.657 0.343002C12.0475 0.733467 12.0475 1.36654 11.657 1.757L7.41399 6L11.657 10.243C12.0475 10.6335 12.0475 11.2665 11.657 11.657C11.2665 12.0475 10.6335 12.0475 10.243 11.657L5.99999 7.414L1.75699 11.657C1.36652 12.0475 0.733452 12.0475 0.342986 11.657C-0.0474791 11.2665 -0.0474789 10.6335 0.342987 10.243L4.58599 6L0.342987 1.757C-0.0474782 1.36654 -0.0474791 0.733467 0.342986 0.343002C0.733452 -0.0474638 1.36652 -0.0474637 1.75699 0.343002L5.99999 4.586Z"/>
+                </svg>
+            </span>
+        </div>
+
+    </div>
 </body>
 </html>
