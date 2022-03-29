@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.button {
+    background-color: #017187;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    border-color: #017187;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 28px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #67AAB7;
+    border-color: #67AAB7;
+}
+
+.button--secondary {
+    background-color: transparent;
+    color: #017187;
+}
+
+.toast {
+    background-color: #404040;
+    border-radius: 4px;
+    border: 1px solid #404040;
+    padding: 12px 16px 12px 16px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: 'Lato';
+}
+
+.toast__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #FFFFFF;
+}
+
+.toast__close svg {
+    fill: currentColor;
+}
+
+.toast2 {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    color: #1FC24E;
+    font-family: 'Lato';
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toast2__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #FFFFFF;
+}
+
+.toast2__close svg {
+    fill: #9D9D9D;
+}
