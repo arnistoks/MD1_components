@@ -15,6 +15,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     margin-top: 0px;
     margin-left: 0px;
@@ -45,6 +47,22 @@ body {
     background-color: #2C3131;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.container__toast {
+    padding: 15px;
+}
+
+.container__left {
+    padding: 15px;
+    float: left;
+    width: 20%;
+}
+
+.container__right {
+    padding: 15px;
+    float: left;
+    width: 40%;
 }
 
 .button1 {
@@ -488,7 +506,8 @@ body {
 }
 
 .toast1 {
-    margin: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     border-radius: 4px;
     border: 0px;
     font-family: 'Lato', sans-serif;
@@ -508,6 +527,15 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
+    cursor: pointer;
+}
+
+.toast1__text {
+    max-width: 220px;
+}
+
+.toast1__close:active {
+    color: #9D9D9D;
 }
 
 .toast1__close svg {
@@ -535,17 +563,22 @@ body {
 }
 
 .toast2 {
-    margin: 15px;
-    background-color: transparent;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #FFFFFF;
     border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
     padding: 12px 16px 12px 16px;
     position: relative;
     width: 100%;
     max-width: 300px;
     display: inline-block;
-    color: #1FC24E;
-    font-family: 'Lato';
     border: 1px solid #F1F1F1;
+    color: #9D9D9D;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -553,14 +586,81 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
-    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.toast2__close svg:active {
+    color: #404040;
 }
 
 .toast2__close svg {
-    fill: #9D9D9D;
+    fill: currentColor;
 }
 
+.toast6__text {
+    color: #145599;
+}
 
+.toast7__text {
+    color: #1FC24E;
+}
+
+.toast8__text {
+    color: #FF2121;
+}
+
+.toast9__text {
+    color: #F17F22;
+}
+
+.toast10 {
+    margin-top: 6px;
+    margin-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #303030;
+    max-width: 575px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.toast10_textbox {
+    max-width: 412px;
+}
+
+.toast10__text {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.toast10__actionbox {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.toast10__action {
+    color: #63A6E9;
+    font-weight: 700;
+}
+
+.toast3__closebox {
+    cursor: pointer;
+}
+
+.toast3__closebox svg {
+    fill: currentColor;
+}
+
+.toast3__closebox svg:active {
+    color: #9D9D9D;
+}
 
 * {
     box-sizing: border-box
